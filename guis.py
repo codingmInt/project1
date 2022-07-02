@@ -1,11 +1,7 @@
 import tkinter
 
 window = tkinter.Tk()
-window.title('GUI')
-window.geometry("640x400+100+100")
-window.resizable(False,False)
-
-label = tkinter.Label(window,text="안녕하세요.")
-label.pack()
+window.title('CALC GUI')
+window.geometry("200x200")
 
 window.mainloop()
